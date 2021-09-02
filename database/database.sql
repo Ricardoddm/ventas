@@ -1,0 +1,11 @@
+CREATE DATABASE ventas;
+
+USE ventas;
+CREATE TABLE ventas(
+    id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    tittle VARCHAR(180),
+    descripcion VARCHAR(255),
+    create_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+DESCRIBE ventas;
