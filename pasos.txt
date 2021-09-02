@@ -1,8 +1,6 @@
 1.- crear carpeta en escritorio coon el nombre de ventas
 2.- arrastarar carpeta al editor de codigo 
 3.- crear carpeta llamada server
-4.- en terminal ingresar a server e ingresar el comando npm init --yes	
-	esto nos creara un nuevo doucmento .json 
 5.- ingresar el comando npm i express morgan promise-mysql cors
 	express:modulo de nodejs para crear el servidor 
 	morgan: para ver lo que el cliente va pidiendo, las peticiones en consola 
@@ -12,18 +10,6 @@ una vez terminada la instalacion se creara una carpeta llamada node_modules
 6.- crear carpeta src: aqui ira todo el codigo
 7.- dentro de src crear archivo index.ts 
 8.- en concola instalar typescript con el comando npm install -g typescript
-9.-una vez termine de instalarse poner el c omando tsc --init y se creara un archivo nuevo llamado tsconfig.json
-10.- dentro de ese archivo en target cambiar a es6 y quitar el comentario en outdir y agregar el valaor de build
-	"outDir": "./build"
-11.-en consola poner el comando tsc y creara la carpeta build
-12.-ahora lo el codigo que se escriba en index.ts sera convertido a index.js de la carpeta build con tsc
-13.-en el archivo package.json agregar un comando nuevo debajo de scripts llamado "build":"tsc -w" y la compilacion emepzara en la terminal 
 14.- instalar el modulo nodemon con el comando npm i nodemon -D
-15.- debajo de la dependencia dell paso 13 crcear una nueva llamada "dev": "nodemon build/index.js"
 16.- ejecutar el comando npm run dev y el servidor empezara a funcionar 
 17.-instalar en temrinal el comando npm i @types/express -D para mas modulos y funciones
-
-
-18.- una vez configurado el codigo ingresar a localhost:3000, aparecera un error peroes porque aun no tenemos nada 
-
-
